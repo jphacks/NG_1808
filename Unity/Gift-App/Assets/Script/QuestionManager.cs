@@ -136,4 +136,8 @@ public class QuestionManager : MonoBehaviour {
         currentChoice = CategoryChoice.No;
     }
 
+    public void ResetSaveData()
+    {
+        PlayerPrefs.DeleteKey("LikeJson");
+    }
 }
