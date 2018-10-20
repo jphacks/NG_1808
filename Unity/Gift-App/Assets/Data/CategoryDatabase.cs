@@ -7,8 +7,24 @@ using System.Linq;
 [CreateAssetMenu(menuName ="ScriptableObject/CategoryDatabase")]
 public class CategoryDatabase : ScriptableObject {
 
-    [SerializeField]
-    public List<string> categoryList;
+    public List<CategoryProperty> _categoryList = new List<CategoryProperty>();
+
+    [System.Serializable]
+    public class CategoryProperty
+    {
+        public string categoryName;
+        public List<string> tag;
+        public Texture2D categoryImage;
+        public List<string> giftList;
+    }
+
+    public List<string> categoryList
+    {
+        get
+        {
+            return _categoryList.Select(c => c.categoryName).ToList();
+        }
+    }
 
     Dictionary<string, int> _categoryDictionary;
 
