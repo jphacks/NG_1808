@@ -23,6 +23,8 @@ public class ChooseGiftManager : MonoBehaviour {
     [SerializeField]
     GameObject GiftPanel;
 
+    static string targetUserId;
+
     public bool GiftPageFlag = false;
 
 	// Use this for initialization
@@ -66,6 +68,11 @@ public class ChooseGiftManager : MonoBehaviour {
             GiftPanel.transform.localPosition += new Vector3(200, 0, 0);
             GiftPageFlag = false;
         }
+    }
+
+    public static void SetTargetId(string userId)
+    {
+        targetUserId = userId;
     }
 
 }

@@ -8,12 +8,6 @@ using UnityEngine.UI;
 public class FacebookLogin : MonoBehaviour {
     public Text LogText;
 
-    // Use this for initialization
-    private void Awake()
-    {
-        FBInitialize();
-    }
-
     public void LoginButton()
     {
         if (!FB.IsLoggedIn && !UserData.IsCreateUserData())
@@ -68,24 +62,4 @@ public class FacebookLogin : MonoBehaviour {
         UserData.userData.DestroyUserData();
     }
 
-    private void FBInitialize()
-    {
-        if (!FB.IsInitialized)
-        {
-            FB.Init(() =>
-            {
-                if (FB.IsInitialized)
-                {
-                    FB.ActivateApp();
-                }
-            },
-            isShown=> {
-
-            });
-        }
-        else
-        {
-            FB.ActivateApp();
-        }
-    }
 }
