@@ -61,6 +61,7 @@ public class UserData : ScriptableObject {
             _userData._userAccessToken = aToken.TokenString;
             PlayerPrefs.SetString("user_local_ID", _userData._userId);
             PlayerPrefs.SetString("user_local_token", _userData._userAccessToken);
+            Debug.Log("UserData: Create UserData");
         }
     }
 
@@ -68,6 +69,7 @@ public class UserData : ScriptableObject {
     {
         _userData = null;
         PlayerPrefs.DeleteAll();
+        Debug.Log("UserData: Destroy UserData");
     }
 
     public static bool IsCreateUserData()

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de3c30dc4d34c1642adde40af995e5cf, type: 3}
+  m_Name: Category_Database
+  m_EditorClassIdentifier: 
+  categoryList:
+  - "\u3061\u3087\u3093"
+  - "\u30B7\u30CE"
+  - "\u306A\u304B\u3044\u3061\u3083\u3093"
+  - "\u308A\u3087\u30FC"
+  - "\u304F\u308F"
+  - "\u304D\u306A\u3053"
+  - "\u3059\u3077\u30FC\u3093"
+  - "\u307F\u3061\u308D\u30FC"
+  - "\u3057\u3087\u30FC\u3044"
+  - shiro
+  - "\u30EF\u30C8\u30BD\u30F3"
+  - nine
+  - "\u3086\u30FC\u3057"
+  - "\u3058\u3083\u3063\u304F\u3093"
+  - "\u306A\u3059"
