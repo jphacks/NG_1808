@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class SceneTransferer : MonoBehaviour
 {
-  public void TransitTo(string nextScene)
-  {
-    UnityEngine.SceneManagement.SceneManager.LoadScene(nextScene);
-  }
+    public void TransitTo(string nextScene)
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(nextScene);
+    }
 }

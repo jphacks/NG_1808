@@ -3,31 +3,32 @@ using System.Collections.Generic;
 using UnityEngine;
 using Facebook.Unity;
 using System.Linq;
+using UnityEngine.UI;
 
 public class FacebookLogin : MonoBehaviour {
-
-    // Use this for initialization
-    private void Awake()
-    {
-        FBInitialize();
-    }
+    public Text LogText;
 
     public void LoginButton()
     {
         if (!FB.IsLoggedIn && !UserData.IsCreateUserData())
         {
-            var list = new List<string> { "public_profile", "user_friends", "user_birthday", "user_gender" };
+            var list = new List<string> { "public_profile", "user_friends", "user_birthday", "user_gender", "user_age_range" };
             FB.LogInWithReadPermissions(list, result =>
             {
                 var aToken = Facebook.Unity.AccessToken.CurrentAccessToken;
                 var userId = aToken.UserId;
                 var Token = aToken.TokenString;
 
-                Debug.Log("Facebook Login UserId: " + userId);
-                Debug.Log("Access Token: " + Token);
-                Debug.Log("Expiration Time: " + aToken.ExpirationTime.ToLocalTime().ToString());
+                if (LogText != null)
+                {
+                    LogText.text = "Facebook Login UserId: " + userId;
+                    LogText.text += "Access Token: " + Token;
+                    LogText.text += "Expiration Time: " + aToken.ExpirationTime.ToLocalTime().ToString();
+                }
 
                 UserData.Init(aToken);
+
+                GetComponent<SceneTransferer>().TransitTo("Send");
             });
 
         }
@@ -61,24 +62,4 @@ public class FacebookLogin : MonoBehaviour {
         UserData.userData.DestroyUserData();
     }
 
-    private void FBInitialize()
-    {
-        if (!FB.IsInitialized)
-        {
-            FB.Init(() =>
-            {
-                if (FB.IsInitialized)
-                {
-                    FB.ActivateApp();
-                }
-            },
-            isShown=> {
-
-            });
-        }
-        else
-        {
-            FB.ActivateApp();
-        }
-    }
 }

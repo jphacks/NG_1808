@@ -73,6 +73,7 @@ GameObject:
   - component: {fileID: 222297944860218038}
   - component: {fileID: 114872983332288024}
   - component: {fileID: 114857732879278604}
+  - component: {fileID: 114742072022434156}
   m_Layer: 5
   m_Name: FriendNode
   m_TagString: Untagged
@@ -255,6 +256,17 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "\u3042\u3042\u3042\u3055\u3093\n\u3053\u306E\u4EBA\u306E\u8A73\u7D30\u3092\u898B\u308B"
+--- !u!114 &114742072022434156
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1616057610733102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97fe129d48293c44b819adc041a03db3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114857732879278604
 MonoBehaviour:
   m_ObjectHideFlags: 1
