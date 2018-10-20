@@ -29,22 +29,18 @@ public class ChooseGiftManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        Dictionary<string, int> likeDic = GetLikeList();
-        List<string> sortLikeList = likeDic.OrderByDescending(c => c.Value).Select(c => c.Key).ToList();
-        for(int i = 0; i < HigherRankingCount; i++)
+        UserPreference.GetPreferencefromID(targetUserId, userPreference =>
         {
-            GameObject CategoryNodeInstance = Instantiate(CategoryNodePrefab, CategoryViewContent.transform);
-            CategoryNodeInstance.SendMessage("Init",sortLikeList[i]);
-        }
+            Dictionary<string, object> _likeDic = Json.Deserialize(userPreference.json) as Dictionary<string, object>;
+            Dictionary<string,int> likeDic =_likeDic.ToDictionary(c => c.Key, c => (int)(long)c.Value);
+            List<string> sortLikeList = likeDic.OrderByDescending(c => c.Value).Select(c => c.Key).ToList();
+            for (int i = 0; i < HigherRankingCount; i++)
+            {
+                GameObject CategoryNodeInstance = Instantiate(CategoryNodePrefab, CategoryViewContent.transform);
+                CategoryNodeInstance.SendMessage("Init", sortLikeList[i]);
+            }
+        });
 	}
-	
-    Dictionary<string,int> GetLikeList()
-    {
-        //ここではデータベースから好みリストを取得する必要がある
-        string likeJson = PlayerPrefs.GetString("LikeJson", "");
-        Dictionary<string, object> likeDic = Json.Deserialize(likeJson) as Dictionary<string, object>;
-        return likeDic.ToDictionary(c => c.Key, c => (int)(long)c.Value);
-    }
 
     public void MoveToGiftListPage(List<string> giftList)
     {

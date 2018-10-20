@@ -52,6 +52,19 @@ public class UserData : ScriptableObject {
         }
     }
 
+    public string userName
+    {
+        get
+        {
+            return this._userName;
+        }
+        set
+        {
+            this._userName = value;
+            UserPreference.SaveParameter("name", value);
+        }
+    }
+
     public static void Init(Facebook.Unity.AccessToken aToken)
     {
         if (_userData == null)

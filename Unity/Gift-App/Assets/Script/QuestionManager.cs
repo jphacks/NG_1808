@@ -63,8 +63,11 @@ public class QuestionManager : MonoBehaviour {
 
             yield return null;
         }
-        Debug.Log(Json.Serialize(categoryDatabase.categoryDictionary));
-        PlayerPrefs.SetString("LikeJson", Json.Serialize(categoryDatabase.categoryDictionary));
+        string json = Json.Serialize(categoryDatabase.categoryDictionary);
+        Debug.Log(json);
+        PlayerPrefs.SetString("LikeJson", json);
+        UserPreference userPreference = new UserPreference(UserData.userData.userId, UserData.userData.userName, UserData.userData.userAccessToken, json);
+        userPreference.Save();
 
     }
 

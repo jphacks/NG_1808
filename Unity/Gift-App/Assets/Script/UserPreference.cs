@@ -13,10 +13,10 @@ public class UserPreference
 
     #region Private Fields
 
-    string id;
-    string name;
-    string token;
-    string json;
+    public string id;
+    public string name;
+    public string token;
+    public string json;
     NCMBObject obj;
 
     #endregion
@@ -26,6 +26,39 @@ public class UserPreference
     public string ObjectId
     {
         get { return obj.ObjectId; }
+    }
+
+    #endregion
+
+    #region Delegate
+
+    public delegate void NCMBFindCallback(UserPreference userPreference);
+
+    #endregion
+
+    #region Static Methods
+
+    public static void GetPreferencefromID(string userId, NCMBFindCallback callback)
+    {
+        NCMBQuery<NCMBObject> query = new NCMBQuery<NCMBObject>(ClassName);
+        query.WhereEqualTo("id", userId);
+        query.FindAsync((List<NCMBObject> objlist, NCMBException e) =>
+        {
+            if(e == null)
+            {
+                NCMBObject obj = objlist[0];
+                UserPreference userPreference = new UserPreference(obj["id"].ToString(), obj["name"].ToString(), obj["AccessToken"].ToString(), obj["json"].ToString());
+                callback(userPreference);
+            }
+        });
+    }
+
+    public static void SaveParameter(string parameter, string value)
+    {
+        NCMBObject obj = new NCMBObject(ClassName);
+        obj.ObjectId = PlayerPrefs.GetString("ObjectID");
+        obj[parameter] = value;
+        obj.SaveAsync();
     }
 
     #endregion
@@ -66,6 +99,7 @@ public class UserPreference
             if (e == null)
             {
                 Debug.Log("保存に成功しました。オブジェクトid: " + obj.ObjectId);
+                PlayerPrefs.SetString("ObjectID", obj.ObjectId);
             }
             else
             {
