@@ -43,7 +43,47 @@ public class CategoryDatabase : ScriptableObject {
             {
                 if (PlayerPrefs.GetString("LikeJson", "") == "")
                 {
-                    _categoryDictionary = categoryList.ToDictionary(c => c, c => 0);
+                    _categoryDictionary = new Dictionary<string, int>();
+                    if(PlayerPrefs.GetString("gender") == "male")
+                    {
+                        List<CategoryProperty> selectList = _categoryList.Where(c => !c.tag.Contains("女性専用")).ToList();
+
+                        foreach(var property in selectList)
+                        {
+                            if (property.tag.Contains("女性傾向強"))
+                            {
+                                _categoryDictionary.Add(property.categoryName, -3);
+                            }else if (property.tag.Contains("女性傾向弱"))
+                            {
+                                _categoryDictionary.Add(property.categoryName, -1);
+                            }else
+                            {
+                                _categoryDictionary.Add(property.categoryName, 0);
+                            }
+
+                        }
+                    }else
+                    {
+                        List<CategoryProperty> selectList = _categoryList.Where(c => !c.tag.Contains("男性専用")).ToList();
+
+                        foreach (var property in selectList)
+                        {
+                            if (property.tag.Contains("男性傾向強"))
+                            {
+                                _categoryDictionary.Add(property.categoryName, -3);
+                            }
+                            else if (property.tag.Contains("男性傾向弱"))
+                            {
+                                _categoryDictionary.Add(property.categoryName, -1);
+                            }
+                            else
+                            {
+                                _categoryDictionary.Add(property.categoryName, 0);
+                            }
+
+                        }
+                    }
+                    
                 }
                 else
                 {
