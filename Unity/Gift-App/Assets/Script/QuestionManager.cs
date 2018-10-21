@@ -126,6 +126,8 @@ public class QuestionManager : MonoBehaviour {
 
         left.SetButtonText(leftID);
         right.SetButtonText(rightID);
+        left.SetButtonSprite(Sprite.Create(categoryDatabase._categoryList.Where(c => c.categoryName == leftID).ToList()[0].categoryImage, new Rect(0, 0, 64, 64), Vector2.zero));
+        right.SetButtonSprite(Sprite.Create(categoryDatabase._categoryList.Where(c => c.categoryName == rightID).ToList()[0].categoryImage, new Rect(0, 0, 64, 64), Vector2.zero));
     }
 
     public void GetChoiceButton(CategoryChoice choice)
