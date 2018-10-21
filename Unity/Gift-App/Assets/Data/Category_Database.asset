@@ -25,7 +25,7 @@ MonoBehaviour:
   - categoryName: "\u9B5A\u4ECB\u985E"
     tag:
     - "\u30D5\u30FC\u30C9\uFF06\u30B9\u30A4\u30FC\u30C4"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: b35178a43e49507408c221d98d72f879, type: 3}
     giftList:
     - "\u5E72\u7269"
     - "\u9BAE\u9B5A \u523A\u8EAB"
@@ -35,7 +35,7 @@ MonoBehaviour:
   - categoryName: "\u9152"
     tag:
     - "\u30D5\u30FC\u30C9\uFF06\u30B9\u30A4\u30FC\u30C4"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: 01f9caf6cb1d6ed4487397874e1deb69, type: 3}
     giftList:
     - "\u65E5\u672C\u9152"
     - "\u713C\u914E"
@@ -47,7 +47,7 @@ MonoBehaviour:
     tag:
     - "\u30D5\u30FC\u30C9\uFF06\u30B9\u30A4\u30FC\u30C4"
     - "\u5973\u6027\u50BE\u5411\u5F31"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: 3e9c35c110460d94d8ecf547e44d7d21, type: 3}
     giftList:
     - "\u30D5\u30A3\u30CA\u30F3\u30B7\u30A7 \u30DE\u30C9\u30EC\u30FC\u30CC"
     - "\u30D0\u30A6\u30E0\u30AF\u30FC\u30D8\u30F3"
@@ -65,7 +65,7 @@ MonoBehaviour:
   - categoryName: "\u548C\u83D3\u5B50"
     tag:
     - "\u30D5\u30FC\u30C9\uFF06\u30B9\u30A4\u30FC\u30C4"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: fc0df93e89964074bb09cc2c05dcc7de, type: 3}
     giftList:
     - "\u3088\u3046\u304B\u3093"
     - "\u3082\u306A\u304B"
@@ -80,7 +80,7 @@ MonoBehaviour:
     tag:
     - "\u30D5\u30FC\u30C9\uFF06\u30B9\u30A4\u30FC\u30C4"
     - "\u5973\u6027\u50BE\u5411\u5F31"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: a37e8d40a847a8741b4231975cb406b7, type: 3}
     giftList:
     - "\u30D5\u30EB\u30FC\u30C4"
     - "\u30C9\u30E9\u30A4\u30D5\u30EB\u30FC\u30C4 \u30CA\u30C3\u30C4"
@@ -88,14 +88,14 @@ MonoBehaviour:
   - categoryName: "\u30C1\u30FC\u30BA \u4E73\u88FD\u54C1"
     tag:
     - "\u30D5\u30FC\u30C9\uFF06\u30B9\u30A4\u30FC\u30C4"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: 2e519e4e10d4c724ca62bd6aeb17f93d, type: 3}
     giftList:
     - "\u30C1\u30FC\u30BA"
     - "\u30E8\u30FC\u30B0\u30EB\u30C8"
   - categoryName: "\u9EBA\u985E"
     tag:
     - "\u30D5\u30FC\u30C9\uFF06\u30B9\u30A4\u30FC\u30C4"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: cf86a9b97d95f1b41b543840bf6d6909, type: 3}
     giftList:
     - "\u3046\u3069\u3093"
     - "\u305D\u3070"
@@ -105,7 +105,7 @@ MonoBehaviour:
   - categoryName: "\u30BD\u30D5\u30C8\u30C9\u30EA\u30F3\u30AF \u8336 \u30B3\u30FC\u30D2\u30FC "
     tag:
     - "\u30D5\u30FC\u30C9\uFF06\u30B9\u30A4\u30FC\u30C4"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: b87391eb065eb184ab8f34e375e03159, type: 3}
     giftList:
     - "\u65E5\u672C\u8336"
     - "\u7D05\u8336"
@@ -116,7 +116,7 @@ MonoBehaviour:
   - categoryName: "\u8ABF\u5473\u6599 \u30C9\u30EC\u30C3\u30B7\u30F3\u30B0 \u30AA\u30A4\u30EB"
     tag:
     - "\u30D5\u30FC\u30C9\uFF06\u30B9\u30A4\u30FC\u30C4"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: 5e4b751c990933e42aeef2ef2fb24d42, type: 3}
     giftList:
     - "\u7802\u7CD6"
     - "\u3057\u3087\u3046\u3086"
@@ -128,7 +128,7 @@ MonoBehaviour:
   - categoryName: "\u6F2C\u7269 \u6D77\u82D4"
     tag:
     - "\u30D5\u30FC\u30C9\uFF06\u30B9\u30A4\u30FC\u30C4"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: 735637facf97adb4bb354e1304fa1d3a, type: 3}
     giftList:
     - "\u4F43\u716E"
     - "\u6F2C\u7269"
@@ -138,14 +138,14 @@ MonoBehaviour:
     tag:
     - "\u30D5\u30FC\u30C9\uFF06\u30B9\u30A4\u30FC\u30C4"
     - "\u5973\u6027\u50BE\u5411\u5F37"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: e3bb4da015a4b9c45bd643ce1374a81f, type: 3}
     giftList:
     - "\u30D1\u30F3"
     - "\u30B0\u30E9\u30CE\u30FC\u30E9 \u30B7\u30EA\u30A2\u30EB"
   - categoryName: "\u7F36\u8A70 \u74F6\u8A70"
     tag:
     - "\u30D5\u30FC\u30C9\uFF06\u30B9\u30A4\u30FC\u30C4"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: ef730f18b46bbc940a8d068bdaecb043, type: 3}
     giftList:
     - "\u304B\u306B\u7F36\u8A70\u3000\u9B5A\u4ECB\u7F36\u8A70"
     - "\u30B3\u30F3\u30D3\u30FC\u30D5"
@@ -153,7 +153,7 @@ MonoBehaviour:
   - categoryName: "\u4E7E\u7269"
     tag:
     - "\u30D5\u30FC\u30C9\uFF06\u30B9\u30A4\u30FC\u30C4"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: 84a0c31c67ff48949831b9a3075b8e74, type: 3}
     giftList:
     - "\u6606\u5E03"
     - "\u9C39\u7BC0"
@@ -162,7 +162,7 @@ MonoBehaviour:
     tag:
     - "\u30D3\u30E5\u30FC\u30C6\u30A3"
     - "\u5973\u6027\u7528"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: 80bfaa25aec29984ab020aade72c86b6, type: 3}
     giftList:
     - "\u30AF\u30EC\u30F3\u30B8\u30F3\u30B0"
     - "\u30DD\u30A4\u30F3\u30C8\u30E1\u30A4\u30AF\u30EA\u30E0\u30FC\u30D0\u30FC"
@@ -182,7 +182,7 @@ MonoBehaviour:
     tag:
     - "\u30D3\u30E5\u30FC\u30C6\u30A3"
     - "\u5973\u6027\u7528"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: e40ac013f033c4d4b8bd9a981f54bbfe, type: 3}
     giftList:
     - "\u30A2\u30A4\u30D6\u30ED\u30FC \u30A2\u30A4\u30E9\u30A4\u30CA\u30FC"
     - "\u30DE\u30B9\u30AB\u30E9 \u307E\u3064\u6BDB\u7F8E\u5BB9\u6DB2"
@@ -195,7 +195,7 @@ MonoBehaviour:
     tag:
     - "\u30D3\u30E5\u30FC\u30C6\u30A3"
     - "\u5973\u6027\u50BE\u5411\u5F37"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: 95c8379d0f49dec43b777be4ad175910, type: 3}
     giftList:
     - "\u30DC\u30C7\u30A3\u30BD\u30FC\u30D7"
     - "\u30DC\u30C7\u30A3\u30FC\u30ED\u30FC\u30B7\u30E7\u30F3"
@@ -211,7 +211,7 @@ MonoBehaviour:
     tag:
     - "\u30D3\u30E5\u30FC\u30C6\u30A3"
     - "\u5973\u6027\u7528"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: b7a9330b84e71fa4f8a638aab1f05e3d, type: 3}
     giftList:
     - "\u30E1\u30A4\u30AF\u30D6\u30E9\u30B7"
     - "\u30E1\u30A4\u30AF\u30B9\u30DD\u30F3\u30B8"
@@ -224,7 +224,7 @@ MonoBehaviour:
     tag:
     - "\u30D3\u30E5\u30FC\u30C6\u30A3"
     - "\u5973\u6027\u50BE\u5411\u5F37"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: e031f6558d5d9884c80d42f754525171, type: 3}
     giftList:
     - "\u30D5\u30A7\u30A4\u30B9\u30B1\u30A2\u7F8E\u5BB9\u6A5F\u5668"
     - "\u30D5\u30A3\u30C3\u30C8\u30CD\u30B9\u6A5F\u5668"
@@ -234,7 +234,7 @@ MonoBehaviour:
     tag:
     - "\u30D3\u30E5\u30FC\u30C6\u30A3"
     - "\u5973\u6027\u50BE\u5411\u5F37"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: 95c8379d0f49dec43b777be4ad175910, type: 3}
     giftList:
     - "\u30B7\u30E3\u30F3\u30D7\u30FC"
     - "\u30B3\u30F3\u30C7\u30A3\u30B7\u30E7\u30CA\u30FC \u30C8\u30EA\u30FC\u30C8\u30E1\u30F3\u30C8"
@@ -245,14 +245,14 @@ MonoBehaviour:
     tag:
     - "\u30D3\u30E5\u30FC\u30C6\u30A3"
     - "\u5973\u6027\u50BE\u5411\u5F37"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: c953c3adfd253ce44a42a1932c4341e2, type: 3}
     giftList:
     - "\u9999\u6C34"
     - "\u30A2\u30ED\u30DE \u304A\u9999"
   - categoryName: "\u30AA\u30FC\u30E9\u30EB\u30B1\u30A2"
     tag:
     - "\u30D3\u30E5\u30FC\u30C6\u30A3"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: 47d41d838b713ca418965470f2c05689, type: 3}
     giftList:
     - "\u6B6F\u78E8\u304D"
   - categoryName: "\u5065\u5EB7\u98DF\u54C1 \u7F8E\u5BB9\u98DF\u54C1"
@@ -260,7 +260,7 @@ MonoBehaviour:
     - "\u30D3\u30E5\u30FC\u30C6\u30A3"
     - "\u30D5\u30FC\u30C9\uFF06\u30B9\u30A4\u30FC\u30C4"
     - "\u5973\u6027\u50BE\u5411\u5F31"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: f1516f3435efbb345a8c16c154b3eab6, type: 3}
     giftList:
     - "\u30B5\u30D7\u30EA\u30E1\u30F3\u30C8"
     - "\u5065\u5EB7\u98DF\u54C1 \u5065\u5EB7\u98F2\u6599"
@@ -268,7 +268,7 @@ MonoBehaviour:
     tag:
     - "\u30D3\u30E5\u30FC\u30C6\u30A3"
     - "\u7537\u6027\u7528"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: 2ee04b9362e0d1842a38b669aa14fead, type: 3}
     giftList:
     - "\u30E1\u30F3\u30BA\u30AD\u30C3\u30C8"
     - "\u30E1\u30F3\u30BA\u30B9\u30AD\u30F3\u30B1\u30A2"
@@ -280,7 +280,7 @@ MonoBehaviour:
     tag:
     - "\u30EC\u30C7\u30A3\u30FC\u30B9\u30D5\u30A1\u30C3\u30B7\u30E7\u30F3"
     - "\u5973\u6027\u7528"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: 6d79ad8801cb55e45b1b644fae0156cd, type: 3}
     giftList:
     - "\u30EC\u30C7\u30A3\u30FC\u30B9\u55AA\u670D"
     - "\u30EC\u30C7\u30A3\u30FC\u30B9\u793C\u670D"
@@ -289,7 +289,7 @@ MonoBehaviour:
     tag:
     - "\u30EC\u30C7\u30A3\u30FC\u30B9\u30D5\u30A1\u30C3\u30B7\u30E7\u30F3"
     - "\u5973\u6027\u7528"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: f3513de28a523df4ca889ea9bbc769ad, type: 3}
     giftList:
     - "\u65E5\u5098"
     - "\u30C8\u30E9\u30D9\u30EB\u30B0\u30C3\u30BA"
@@ -297,14 +297,14 @@ MonoBehaviour:
     tag:
     - "\u30EC\u30C7\u30A3\u30FC\u30B9\u30D5\u30A1\u30C3\u30B7\u30E7\u30F3"
     - "\u5973\u6027\u7528"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: 57ff8c7c7e3f4a942ba7bc5fab09f890, type: 3}
     giftList:
     - "\u30EC\u30C7\u30A3\u30FC\u30B9\u8155\u6642\u8A08"
   - categoryName: "\u30EC\u30C7\u30A3\u30FC\u30B9\u30D0\u30C3\u30B0"
     tag:
     - "\u30EC\u30C7\u30A3\u30FC\u30B9\u30D5\u30A1\u30C3\u30B7\u30E7\u30F3"
     - "\u5973\u6027\u7528"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: 2bf863c7d7fe31f4982e2a8a0d818f3f, type: 3}
     giftList:
     - "\u30EC\u30C7\u30A3\u30FC\u30B9\u30B7\u30E7\u30EB\u30C0\u30FC\u30D0\u30C3\u30B0"
     - "\u30EC\u30C7\u30A3\u30FC\u30B9\u30C8\u30FC\u30C8\u30D0\u30C3\u30B0"
@@ -315,7 +315,7 @@ MonoBehaviour:
     tag:
     - "\u30EC\u30C7\u30A3\u30FC\u30B9\u30D5\u30A1\u30C3\u30B7\u30E7\u30F3"
     - "\u5973\u6027\u7528"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: bfe92420c6dfd39478e6cdedf42ecd79, type: 3}
     giftList:
     - "\u30EC\u30C7\u30A3\u30FC\u30B9\u8CA1\u5E03"
     - "\u30EC\u30C7\u30A3\u30FC\u30B9\u540D\u523A\u5165\u308C"
@@ -328,7 +328,7 @@ MonoBehaviour:
     tag:
     - "\u30EC\u30C7\u30A3\u30FC\u30B9\u30D5\u30A1\u30C3\u30B7\u30E7\u30F3"
     - "\u5973\u6027\u7528"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: 22cde7b2904e044b7b770948ee25d9bf, type: 3}
     giftList:
     - "\u30D0\u30EC\u30C3\u30BF"
     - "\u30D8\u30A2\u30AF\u30EA\u30C3\u30D7"
@@ -337,7 +337,7 @@ MonoBehaviour:
     tag:
     - "\u30EC\u30C7\u30A3\u30FC\u30B9\u30D5\u30A1\u30C3\u30B7\u30E7\u30F3"
     - "\u5973\u6027\u7528"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: e07e942b6ed2f4f9ab39b9465fdcec6f, type: 3}
     giftList:
     - "\u30EC\u30C7\u30A3\u30FC\u30B9\u30CD\u30C3\u30AF\u30EC\u30B9"
     - "\u30EC\u30C7\u30A3\u30FC\u30B9\u30EA\u30F3\u30B0"
@@ -351,7 +351,7 @@ MonoBehaviour:
     tag:
     - "\u30E1\u30F3\u30BA\u30D5\u30A1\u30C3\u30B7\u30E7\u30F3"
     - "\u7537\u6027\u7528"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: 58e2c38e784d5420a9e65f9f3ad13821, type: 3}
     giftList:
     - "\u30E1\u30F3\u30BA\u30B9\u30FC\u30C4"
     - "\u30EF\u30A4\u30B7\u30E3\u30C4"
@@ -360,7 +360,7 @@ MonoBehaviour:
     tag:
     - "\u30E1\u30F3\u30BA\u30D5\u30A1\u30C3\u30B7\u30E7\u30F3"
     - "\u7537\u6027\u7528"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: 6bdcc8ecf8d7346b09038da0ed589e90, type: 3}
     giftList:
     - "\u30E1\u30F3\u30BA\u8CA1\u5E03"
     - "\u30E1\u30F3\u30BA\u30B3\u30A4\u30F3\u30B1\u30FC\u30B9"
@@ -371,7 +371,7 @@ MonoBehaviour:
     tag:
     - "\u30E1\u30F3\u30BA\u30D5\u30A1\u30C3\u30B7\u30E7\u30F3"
     - "\u7537\u6027\u7528"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: 42ad46ea4476b49c8b6b7021d506c601, type: 3}
     giftList:
     - "\u30E1\u30F3\u30BA\u30EA\u30E5\u30C3\u30AF"
     - "\u30E1\u30F3\u30BA\u30AF\u30E9\u30C3\u30C1\u30D0\u30C3\u30B0"
@@ -380,21 +380,21 @@ MonoBehaviour:
     tag:
     - "\u30E1\u30F3\u30BA\u30D5\u30A1\u30C3\u30B7\u30E7\u30F3"
     - "\u7537\u6027\u7528"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: c64219421d7c44e529eac84488c47326, type: 3}
     giftList:
     - "\u30E1\u30F3\u30BA\u8155\u6642\u8A08"
   - categoryName: "\u30E1\u30F3\u30BA\u30D5\u30A1\u30C3\u30B7\u30E7\u30F3\u96D1\u8CA8"
     tag:
     - "\u30E1\u30F3\u30BA\u30D5\u30A1\u30C3\u30B7\u30E7\u30F3"
     - "\u7537\u6027\u7528"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: e771e4941c5c441598f45ce34047f2e5, type: 3}
     giftList:
     - "\u30E1\u30F3\u30BA\u30D9\u30EB\u30C8"
   - categoryName: "\u30E1\u30F3\u30BA\u65C5\u884C\u7528\u54C1"
     tag:
     - "\u30E1\u30F3\u30BA\u30D5\u30A1\u30C3\u30B7\u30E7\u30F3"
     - "\u7537\u6027\u7528"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: d00b5ccc22b9d440eb9bcad903aa90d7, type: 3}
     giftList:
     - "\u30B9\u30FC\u30C4\u30B1\u30FC\u30B9"
     - "\u30AD\u30E3\u30EA\u30FC\u30D0\u30C3\u30B0"
@@ -403,7 +403,7 @@ MonoBehaviour:
     tag:
     - "\u30D9\u30D3\u30FC \u30AD\u30C3\u30BA\u7528\u54C1"
     - "\u5973\u6027\u50BE\u5411\u5F37"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: 2b9afc2f70fa4409cb1268b566af907f, type: 3}
     giftList:
     - "\u30D9\u30D3\u30FC\u30C8\u30C3\u30D7\u30B9"
     - "\u3079\u30D3\u30FC\u30DC\u30C8\u30E0\u30B9"
@@ -416,7 +416,7 @@ MonoBehaviour:
     tag:
     - "\u30D9\u30D3\u30FC \u30AD\u30C3\u30BA\u7528\u54C1"
     - "\u5973\u6027\u50BE\u5411\u5F37"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: c49a6bf626dd34c8aa79592763732150, type: 3}
     giftList:
     - "\u30D9\u30D3\u30FC\u30DF\u30C8\u30F3"
     - "\u30D9\u30D3\u30FC\u5E3D\u5B50"
@@ -428,7 +428,7 @@ MonoBehaviour:
     tag:
     - "\u30D9\u30D3\u30FC \u30AD\u30C3\u30BA\u7528\u54C1"
     - "\u5973\u6027\u50BE\u5411\u5F37"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: e1ddc1e83cb8943859f9e3e80c1ee64f, type: 3}
     giftList:
     - "\u304A\u3082\u3061\u3083"
     - "\u77E5\u80B2\u73A9\u5177"
@@ -439,7 +439,7 @@ MonoBehaviour:
     tag:
     - "\u30D9\u30D3\u30FC \u30AD\u30C3\u30BA\u7528\u54C1"
     - "\u5973\u6027\u50BE\u5411\u5F37"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: 72163c25d3b9b45e998e70454532a115, type: 3}
     giftList:
     - "\u30D9\u30D3\u30FC\u30AB\u30FC"
     - "\u30C1\u30E3\u30A4\u30EB\u30C9\u30B7\u30FC\u30C8"
@@ -448,7 +448,7 @@ MonoBehaviour:
     tag:
     - "\u30D9\u30D3\u30FC \u30AD\u30C3\u30BA\u7528\u54C1"
     - "\u5973\u6027\u50BE\u5411\u5F37"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: 0d5bc7284b1eb47f8b04696bd325e160, type: 3}
     giftList:
     - "\u30AD\u30C3\u30BA\u30D0\u30C3\u30B0"
     - "\u30AD\u30C3\u30BA\u5E3D\u5B50"
@@ -460,7 +460,7 @@ MonoBehaviour:
     tag:
     - "\u30D9\u30D3\u30FC \u30AD\u30C3\u30BA\u7528\u54C1"
     - "\u5973\u6027\u50BE\u5411\u5F37"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: 1434871cad6d44ade820289ca6c37f44, type: 3}
     giftList:
     - "\u5B66\u7FD2\u673A"
     - "\u30AD\u30C3\u30BA\u30D9\u30C3\u30C9"
@@ -468,7 +468,7 @@ MonoBehaviour:
     tag:
     - "\u30D9\u30D3\u30FC \u30AD\u30C3\u30BA\u7528\u54C1"
     - "\u5973\u6027\u50BE\u5411\u5F31"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: 56a9ab08ecfae40599f6deb92dabd9eb, type: 3}
     giftList:
     - "\u30E9\u30F3\u30C9\u30BB\u30EB\u7537\u306E\u5B50"
     - "\u30E9\u30F3\u30C9\u30BB\u30EB\u5973\u306E\u5B50"
@@ -476,7 +476,7 @@ MonoBehaviour:
     tag:
     - "\u30DB\u30FC\u30E0&\u30A4\u30F3\u30C6\u30EA\u30A2"
     - "\u5973\u6027\u50BE\u5411\u5F31"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: 3e5d6f7a4559d418995b7ee260bb223b, type: 3}
     giftList:
     - "\u30D7\u30EC\u30FC\u30C8\u30DC\u30A6\u30EB"
     - "\u30AB\u30C3\u30D7 \u30BD\u30FC\u30B5\u2015"
@@ -487,7 +487,7 @@ MonoBehaviour:
   - categoryName: "\u548C\u98DF\u5668"
     tag:
     - "\u30DB\u30FC\u30E0&\u30A4\u30F3\u30C6\u30EA\u30A2"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: 5f49e78e2f7fc41d9ba4f763bed8c7c8, type: 3}
     giftList:
     - "\u8336\u7897 \u6C41\u6900 \u3069\u3093\u3076\u308A"
     - "\u7BB8 \u7BB8\u7F6E\u304D"
@@ -498,7 +498,7 @@ MonoBehaviour:
     tag:
     - "\u30DB\u30FC\u30E0&\u30A4\u30F3\u30C6\u30EA\u30A2"
     - "\u5973\u6027\u50BE\u5411\u5F37"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: ca54db804f74545428036eca3989d153, type: 3}
     giftList:
     - "\u934B"
     - "\u30D5\u30E9\u30A4\u30D1\u30F3"
@@ -510,7 +510,7 @@ MonoBehaviour:
     tag:
     - "\u30DB\u30FC\u30E0&\u30A4\u30F3\u30C6\u30EA\u30A2"
     - "\u5973\u6027\u50BE\u5411\u5F37"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: 6e617cc51f0f04eb399a72908ef6ff12, type: 3}
     giftList:
     - "\u30BF\u30AA\u30EB \u30D0\u30B9\u30BF\u30AA\u30EB"
     - "\u6D17\u5264"
@@ -521,7 +521,7 @@ MonoBehaviour:
   - categoryName: "\u5BDD\u5177"
     tag:
     - "\u30DB\u30FC\u30E0&\u30A4\u30F3\u30C6\u30EA\u30A2"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: 98e05e88cc6934b829cc755a5e926918, type: 3}
     giftList:
     - "\u639B\u3051\u5E03\u56E3"
     - "\u6BDB\u5E03 \u30BF\u30AA\u30EB\u30B1\u30C3\u30C8"
@@ -534,7 +534,7 @@ MonoBehaviour:
     tag:
     - "\u30DB\u30FC\u30E0&\u30A4\u30F3\u30C6\u30EA\u30A2"
     - "\u5973\u6027\u50BE\u5411\u5F37"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: 6874db619199046729ff744c22bb4031, type: 3}
     giftList:
     - "\u751F\u82B1"
     - "\u30D6\u30FC\u30B1"
@@ -544,7 +544,7 @@ MonoBehaviour:
     tag:
     - "\u30DB\u30FC\u30E0&\u30A4\u30F3\u30C6\u30EA\u30A2"
     - "\u5973\u6027\u50BE\u5411\u5F31"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: b3e86b5f5761045c69e77d5c9bc95eec, type: 3}
     giftList:
     - "\u30C6\u30FC\u30D6\u30EB"
     - "\u30C1\u30A7\u30A2 \u30B9\u30C4\u30FC\u30EB"
@@ -560,7 +560,7 @@ MonoBehaviour:
     tag:
     - "\u30DB\u30FC\u30E0&\u30A4\u30F3\u30C6\u30EA\u30A2"
     - "\u5973\u6027\u50BE\u5411\u5F31"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: d21a06841709643a9b15cb7ffdf80041, type: 3}
     giftList:
     - "\u6642\u8A08 \u30A6\u30A9\u30FC\u30EB\u30A2\u30AF\u30BB\u30B5\u30EA\u30FC"
     - "\u30D5\u30A9\u30C8\u30D5\u30EC\u30FC\u30E0"
@@ -570,7 +570,7 @@ MonoBehaviour:
   - categoryName: "\u30DA\u30C3\u30C8\u7528\u54C1"
     tag:
     - "\u30DB\u30FC\u30E0&\u30A4\u30F3\u30C6\u30EA\u30A2"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: fe244db87141248a087cc914a689da7d, type: 3}
     giftList:
     - "\u30DA\u30C3\u30C8\u30D5\u30FC\u30C9"
     - "\u30DA\u30C3\u30C8\u30B1\u30FC\u30B8"
@@ -580,7 +580,7 @@ MonoBehaviour:
     tag:
     - "\u30DB\u30FC\u30E0&\u30A4\u30F3\u30C6\u30EA\u30A2"
     - "\u5973\u6027\u50BE\u5411\u5F31"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: 0f475f95caf2c4552b8bd1e42ae9b8df, type: 3}
     giftList:
     - "\u7D75\u753B"
     - "\u30A2\u30FC\u30C8\u30B0\u30C3\u30BA"
@@ -588,7 +588,7 @@ MonoBehaviour:
     tag:
     - "\u30B9\u30DD\u30FC\u30C4 \u30EC\u30B8\u30E3\u30FC\u7528\u54C1"
     - "\u7537\u6027\u50BE\u5411\u5F37"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: dac7418e403454d8c8afe9b5a73067a7, type: 3}
     giftList:
     - "\u30AF\u30E9\u30D6"
     - "\u30E1\u30F3\u30BA\u30B4\u30EB\u30D5\u30A6\u30A8\u30A2"
@@ -600,7 +600,7 @@ MonoBehaviour:
     tag:
     - "\u30B9\u30DD\u30FC\u30C4 \u30EC\u30B8\u30E3\u30FC\u7528\u54C1"
     - "\u7537\u6027\u50BE\u5411\u5F37"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: e6c6bf7916a2f44b9832569203b03ac6, type: 3}
     giftList:
     - "\u30D5\u30A3\u30C3\u30B7\u30F3\u30B0\u30ED\u30C3\u30C9"
     - "\u30EA\u30FC\u30EB"
@@ -611,7 +611,7 @@ MonoBehaviour:
     tag:
     - "\u30B9\u30DD\u30FC\u30C4 \u30EC\u30B8\u30E3\u30FC\u7528\u54C1"
     - "\u7537\u6027\u50BE\u5411\u5F31"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: 128b0355c11fb45c69c422ec0cf9e65f, type: 3}
     giftList:
     - "\u81EA\u8EE2\u8ECA\u672C\u4F53"
     - "\u30B5\u30A4\u30AF\u30EA\u30F3\u30B0\u30A6\u30A8\u30A2"
@@ -621,7 +621,7 @@ MonoBehaviour:
     tag:
     - "\u30B9\u30DD\u30FC\u30C4 \u30EC\u30B8\u30E3\u30FC\u7528\u54C1"
     - "\u7537\u6027\u50BE\u5411\u5F37"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: b73d15da49aa9417c998a5918560b764, type: 3}
     giftList:
     - "\u91CE\u7403\u30A6\u30A8\u30A2"
     - "\u91CE\u7403\u30B7\u30E5\u30FC\u30BA"
@@ -633,7 +633,7 @@ MonoBehaviour:
     tag:
     - "\u30B9\u30DD\u30FC\u30C4 \u30EC\u30B8\u30E3\u30FC\u7528\u54C1"
     - "\u7537\u6027\u50BE\u5411\u5F31"
-    categoryImage: {fileID: 0}
+    categoryImage: {fileID: 2800000, guid: 2d35aa9af92ec4d01ab4316fa129a532, type: 3}
     giftList:
     - "\u30B5\u30C3\u30AB\u30FC\u30A6\u30A8\u30A2"
     - "\u30B5\u30C3\u30AB\u30FC\u30B7\u30E5\u30FC\u30BA"
