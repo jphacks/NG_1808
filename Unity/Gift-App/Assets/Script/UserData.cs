@@ -78,6 +78,7 @@ public class UserData : ScriptableObject {
             FacebookAPI.GetUserProfile(_userData._userId, result =>
             {
                 _userData._userName = result["name"];
+                PlayerPrefs.SetString("gender", result["gender"]);
             });
         }
     }

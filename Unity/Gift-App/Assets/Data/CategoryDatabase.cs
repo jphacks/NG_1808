@@ -43,6 +43,17 @@ public class CategoryDatabase : ScriptableObject {
             {
                 if (PlayerPrefs.GetString("LikeJson", "") == "")
                 {
+                    if(PlayerPrefs.GetString("gender") == "male")
+                    {
+                        List<CategoryProperty> selectList = _categoryList.Where(c => !c.tag.Contains("女性専用")).ToList();
+                        
+                        /*_categoryDictionary = selectList.Select(c=>{
+                            if (c.tag.Contains("女性傾向弱"))
+                            {
+                                {
+                            }
+                        });*/
+                    }
                     _categoryDictionary = categoryList.ToDictionary(c => c, c => 0);
                 }
                 else

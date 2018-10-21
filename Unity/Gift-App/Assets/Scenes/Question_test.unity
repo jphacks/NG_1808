@@ -156,9 +156,9 @@ MonoBehaviour:
   categoryDatabase: {fileID: 11400000, guid: 98c83ee46d0b09e4dbee98cdbccac08c, type: 2}
   LeftButton: {fileID: 751210057}
   RightButton: {fileID: 1140943839}
-  QuestionCount: 20
-  HigherRanking: 5
-  HigherQuestion: 6
+  QuestionCount: 10
+  HigherRanking: 20
+  HigherQuestion: 3
 --- !u!1 &422741269
 GameObject:
   m_ObjectHideFlags: 0
