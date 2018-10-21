@@ -75,6 +75,7 @@ GameObject:
   - component: {fileID: 222971018815598904}
   - component: {fileID: 114394188490271550}
   - component: {fileID: 114030256024161732}
+  - component: {fileID: 114608581427056420}
   m_Layer: 5
   m_Name: HistoryNode
   m_TagString: Untagged
@@ -160,7 +161,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "10\u670820\u65E5\n\u9B54\u8853\u5E2B\u3055\u3093\u306B\u85AC\u8349\u3092\u3082\u3089\u3044\u307E\u3057\u305F"
+  m_Text: (dynamic)
 --- !u!114 &114371676470240000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -273,6 +274,21 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114608581427056420
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1944065988039060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51312a9842e7f4d4c98711c95dba027a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Month: 10
+  Day: 20
+  Summary: "\u9B54\u8853\u5E2B\u3055\u3093\u304B\u3089\u85AC\u8349\u3092\u3082\u3089\u3044\u307E\u3057\u305F"
+  person: anony
 --- !u!114 &114944412244425396
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -327,8 +343,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 42, y: 3.5}
-  m_SizeDelta: {x: 158, y: 24}
+  m_AnchoredPosition: {x: 42, y: 6.4}
+  m_SizeDelta: {x: 158, y: 29.8}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!224 &224622642842164324
 RectTransform:
@@ -367,7 +383,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
+  m_SizeDelta: {x: 0, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224893022812581676
 RectTransform:
