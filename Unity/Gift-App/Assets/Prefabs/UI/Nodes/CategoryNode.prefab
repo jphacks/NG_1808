@@ -180,6 +180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2ed41d3af591d545979832d00f3fd6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  categoryDatabase: {fileID: 11400000, guid: 98c83ee46d0b09e4dbee98cdbccac08c, type: 2}
 --- !u!114 &114941486216106352
 MonoBehaviour:
   m_ObjectHideFlags: 1

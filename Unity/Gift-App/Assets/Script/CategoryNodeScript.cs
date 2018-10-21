@@ -6,6 +6,9 @@ using UnityEngine.UI;
 public class CategoryNodeScript : MonoBehaviour {
     string categoryName;
 
+    [SerializeField]
+    CategoryDatabase categoryDatabase;
+
 	public void Init(string categoryName)
     {
         transform.Find("Text").GetComponent<Text>().text = categoryName;
@@ -14,7 +17,7 @@ public class CategoryNodeScript : MonoBehaviour {
 
     public void OnButton()
     {
-        List<string> giftList = new List<string> { "Yシャツ", "Tシャツ", "タートルネック", "ヒートテック", "フード付き" };
+        List<string> giftList = categoryDatabase.GetGiftList(categoryName);
         GameObject.Find("GiftManageObject").GetComponent<ChooseGiftManager>().MoveToGiftListPage(giftList);
     }
 }

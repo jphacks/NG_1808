@@ -230,3 +230,48 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: faa3c2b6e89acc141a12b525469db654, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1959456203
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1959456205}
+  - component: {fileID: 1959456204}
+  m_Layer: 0
+  m_Name: NCMBSettings
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1959456204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1959456203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cce9f462cbd54512a9cbcde9b713e2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  applicationKey: 057c91fb86793b79d473430b2040e0e0b40964407b8dd19d99fa5cfe474a8a07
+  clientKey: d5fd9d81bacb4d2e9e675337f9fe92c1d20c61e738d7f74d04db784921a401d5
+  usePush: 0
+  useAnalytics: 0
+  responseValidation: 0
+--- !u!4 &1959456205
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1959456203}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 89.15246, y: 194.44867, z: -2.4375}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

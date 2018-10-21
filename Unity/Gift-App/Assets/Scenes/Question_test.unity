@@ -156,9 +156,9 @@ MonoBehaviour:
   categoryDatabase: {fileID: 11400000, guid: 98c83ee46d0b09e4dbee98cdbccac08c, type: 2}
   LeftButton: {fileID: 751210057}
   RightButton: {fileID: 1140943839}
-  QuestionCount: 10
+  QuestionCount: 20
   HigherRanking: 5
-  HigherQuestion: 5
+  HigherQuestion: 6
 --- !u!1 &422741269
 GameObject:
   m_ObjectHideFlags: 0
@@ -614,14 +614,14 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 20
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 2
-    m_MaxSize: 40
+    m_MaxSize: 20
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 1
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: Right
 --- !u!222 &1094042836
@@ -1061,14 +1061,14 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 20
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 2
-    m_MaxSize: 40
+    m_MaxSize: 20
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 1
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: Left
 --- !u!222 &1411746016

@@ -52,6 +52,19 @@ public class UserData : ScriptableObject {
         }
     }
 
+    public string userName
+    {
+        get
+        {
+            return this._userName;
+        }
+        set
+        {
+            this._userName = value;
+            UserPreference.SaveParameter("name", value);
+        }
+    }
+
     public static void Init(Facebook.Unity.AccessToken aToken)
     {
         if (_userData == null)
@@ -62,6 +75,10 @@ public class UserData : ScriptableObject {
             PlayerPrefs.SetString("user_local_ID", _userData._userId);
             PlayerPrefs.SetString("user_local_token", _userData._userAccessToken);
             Debug.Log("UserData: Create UserData");
+            FacebookAPI.GetUserProfile(_userData._userId, result =>
+            {
+                _userData._userName = result["name"];
+            });
         }
     }
 

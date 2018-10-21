@@ -13,41 +13,70 @@ public class UserPreference
 
     #region Private Fields
 
-    string id;
-    string name;
-    string token;
-    string json;
-    NCMBObject obj;
+    public string id;
+    public string name;
+    public string token;
+    public string json;
 
     #endregion
 
     #region Public Properties
 
-    public string ObjectId
+    /*public string ObjectId
     {
         get { return obj.ObjectId; }
+    }*/
+
+    #endregion
+
+    #region Delegate
+
+    public delegate void NCMBFindCallback(UserPreference userPreference);
+
+    #endregion
+
+    #region Static Methods
+
+    public static void GetPreferencefromID(string userId, NCMBFindCallback callback)
+    {
+        NCMBQuery<NCMBObject> query = new NCMBQuery<NCMBObject>(ClassName);
+        query.WhereEqualTo("id", userId);
+        query.FindAsync((List<NCMBObject> objlist, NCMBException e) =>
+        {
+            if(e == null)
+            {
+                if (objlist.Count != 0)
+                {
+                    NCMBObject obj = objlist[0];
+                    UserPreference userPreference = new UserPreference(obj["id"].ToString(), obj["name"].ToString(), obj["token"].ToString(), obj["json"].ToString());
+                    callback(userPreference);
+                }else
+                {
+                    callback(null);
+                }
+            }
+        });
+    }
+
+    public static void SaveParameter(string parameter, string value)
+    {
+        NCMBObject obj = new NCMBObject(ClassName);
+        obj.ObjectId = PlayerPrefs.GetString("ObjectID");
+        obj[parameter] = value;
+        obj.SaveAsync();
     }
 
     #endregion
 
     #region Constructors
 
-    public UserPreference(string id, string name, string token, string json, string objid = null)
+    public UserPreference(string id, string name, string token, string json)
     {
 
         this.id = id;
         this.name = name;
         this.token = token;
         this.json = json;
-        this.obj = new NCMBObject(ClassName);
-        if (objid == null)
-        {
-            this.AssignObjectId();
-        }
-        else
-        {
-            this.obj.ObjectId = objid;
-        }
     }
 
     #endregion
@@ -66,6 +95,7 @@ public class UserPreference
             if (e == null)
             {
                 Debug.Log("保存に成功しました。オブジェクトid: " + obj.ObjectId);
+                PlayerPrefs.SetString("ObjectID", obj.ObjectId);
             }
             else
             {
@@ -91,7 +121,7 @@ public class UserPreference
 
     #region Private Methods
 
-    private void AssignObjectId()
+    /*private void AssignObjectId()
     {
         var query = new NCMBQuery<NCMBObject>(ClassName);
         query.WhereEqualTo("id", this.id);
@@ -110,7 +140,7 @@ public class UserPreference
                 this.id = objs[0].ObjectId;
             }
         });
-    }
+    }*/
 
     #endregion
 }

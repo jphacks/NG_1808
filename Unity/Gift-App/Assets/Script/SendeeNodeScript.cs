@@ -17,4 +17,9 @@ public class SendeeNodeScript : MonoBehaviour {
     {
         this.userId = userId;
     }
+
+    public void OnButton()
+    {
+        ChooseGiftManager.SetTargetId(userId);
+    }
 }

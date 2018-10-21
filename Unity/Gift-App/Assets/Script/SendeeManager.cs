@@ -15,13 +15,13 @@ public class SendeeManager : MonoBehaviour {
         {
             foreach (var ID in IDs)
             {
-                FacebookAPI.GetUserProfile(ID, result =>
-                 {
-                     string friendsName = result["name"];
-                     GameObject SendeeNodeInstance = Instantiate(SendeeNodePrefab, SendeeViewContent.transform);
-                     SendeeNodeInstance.SendMessage("Init", friendsName);
-                     SendeeNodeInstance.SendMessage("InitID", ID);
-                 });
+                UserPreference.GetPreferencefromID(ID, userPreference =>
+                {
+                    string friendsName = userPreference.name;
+                    GameObject SendeeNodeInstance = Instantiate(SendeeNodePrefab, SendeeViewContent.transform);
+                    SendeeNodeInstance.SendMessage("Init", friendsName);
+                    SendeeNodeInstance.SendMessage("InitID", ID);
+                });
             }
         });
 	}

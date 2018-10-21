@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ChooseSendee.unity
     guid: d0f373259df3f4f199c5263588081ce6
+  - enabled: 1
+    path: Assets/Scenes/Question_test.unity
+    guid: 417ff7f21604bc64b85290eca24e484b
   m_configObjects: {}

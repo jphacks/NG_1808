@@ -28,7 +28,7 @@ public class FacebookLogin : MonoBehaviour {
 
                 UserData.Init(aToken);
 
-                GetComponent<SceneTransferer>().TransitTo("Send");
+                GetComponent<SceneTransferer>().TransitTo("Question_test");
             });
 
         }
