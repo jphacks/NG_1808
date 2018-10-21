@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/StartBlack.unity
+    guid: c41af104a9acdfb47b123a20980e3473
+  - enabled: 1
     path: Assets/Scenes/Facebook.unity
     guid: aeb28163bb4fbce4c9e1f0a0f20a3c4d
   - enabled: 1
