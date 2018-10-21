@@ -31,13 +31,16 @@ public class ChooseGiftManager : MonoBehaviour {
 	void Start () {
         UserPreference.GetPreferencefromID(targetUserId, userPreference =>
         {
-            Dictionary<string, object> _likeDic = Json.Deserialize(userPreference.json) as Dictionary<string, object>;
-            Dictionary<string,int> likeDic =_likeDic.ToDictionary(c => c.Key, c => (int)(long)c.Value);
-            List<string> sortLikeList = likeDic.OrderByDescending(c => c.Value).Select(c => c.Key).ToList();
-            for (int i = 0; i < HigherRankingCount; i++)
+            if (userPreference != null)
             {
-                GameObject CategoryNodeInstance = Instantiate(CategoryNodePrefab, CategoryViewContent.transform);
-                CategoryNodeInstance.SendMessage("Init", sortLikeList[i]);
+                Dictionary<string, object> _likeDic = Json.Deserialize(userPreference.json) as Dictionary<string, object>;
+                Dictionary<string, int> likeDic = _likeDic.ToDictionary(c => c.Key, c => (int)(long)c.Value);
+                List<string> sortLikeList = likeDic.OrderByDescending(c => c.Value).Select(c => c.Key).ToList();
+                for (int i = 0; i < HigherRankingCount; i++)
+                {
+                    GameObject CategoryNodeInstance = Instantiate(CategoryNodePrefab, CategoryViewContent.transform);
+                    CategoryNodeInstance.SendMessage("Init", sortLikeList[i]);
+                }
             }
         });
 	}

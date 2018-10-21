@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using Facebook.MiniJSON;
 using System.Linq;
+using UnityEngine.SceneManagement;
 
 public class QuestionManager : MonoBehaviour {
     [SerializeField]
@@ -68,7 +69,7 @@ public class QuestionManager : MonoBehaviour {
         PlayerPrefs.SetString("LikeJson", json);
         UserPreference userPreference = new UserPreference(UserData.userData.userId, UserData.userData.userName, UserData.userData.userAccessToken, json);
         userPreference.Save();
-
+        SceneManager.LoadScene("Send");
     }
 
     public void AddCategoryScore(CategoryChoice currentChoice)

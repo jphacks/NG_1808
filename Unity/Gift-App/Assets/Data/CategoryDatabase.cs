@@ -18,6 +18,12 @@ public class CategoryDatabase : ScriptableObject {
         public List<string> giftList;
     }
 
+    public List<string> GetGiftList(string categoryName)
+    {
+        List<List<string>> giftListList = _categoryList.Where(c => c.categoryName == categoryName).Select(c => c.giftList).ToList();
+        return giftListList[0];
+    }
+
     public List<string> categoryList
     {
         get

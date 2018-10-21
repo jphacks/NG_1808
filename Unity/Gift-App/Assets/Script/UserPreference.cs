@@ -17,16 +17,15 @@ public class UserPreference
     public string name;
     public string token;
     public string json;
-    NCMBObject obj;
 
     #endregion
 
     #region Public Properties
 
-    public string ObjectId
+    /*public string ObjectId
     {
         get { return obj.ObjectId; }
-    }
+    }*/
 
     #endregion
 
@@ -46,9 +45,15 @@ public class UserPreference
         {
             if(e == null)
             {
-                NCMBObject obj = objlist[0];
-                UserPreference userPreference = new UserPreference(obj["id"].ToString(), obj["name"].ToString(), obj["AccessToken"].ToString(), obj["json"].ToString());
-                callback(userPreference);
+                if (objlist.Count != 0)
+                {
+                    NCMBObject obj = objlist[0];
+                    UserPreference userPreference = new UserPreference(obj["id"].ToString(), obj["name"].ToString(), obj["token"].ToString(), obj["json"].ToString());
+                    callback(userPreference);
+                }else
+                {
+                    callback(null);
+                }
             }
         });
     }
@@ -65,22 +70,13 @@ public class UserPreference
 
     #region Constructors
 
-    public UserPreference(string id, string name, string token, string json, string objid = null)
+    public UserPreference(string id, string name, string token, string json)
     {
 
         this.id = id;
         this.name = name;
         this.token = token;
         this.json = json;
-        this.obj = new NCMBObject(ClassName);
-        if (objid == null)
-        {
-            this.AssignObjectId();
-        }
-        else
-        {
-            this.obj.ObjectId = objid;
-        }
     }
 
     #endregion
@@ -125,7 +121,7 @@ public class UserPreference
 
     #region Private Methods
 
-    private void AssignObjectId()
+    /*private void AssignObjectId()
     {
         var query = new NCMBQuery<NCMBObject>(ClassName);
         query.WhereEqualTo("id", this.id);
@@ -144,7 +140,7 @@ public class UserPreference
                 this.id = objs[0].ObjectId;
             }
         });
-    }
+    }*/
 
     #endregion
 }

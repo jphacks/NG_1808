@@ -22,6 +22,7 @@ public class FacebookAPI : MonoBehaviour {
 
     public static void GetUserProfile(string UserId, UserProfileCallback callback)
     {
+        Debug.Log("GetUserProfile Called");
         if (UserData.IsCreateUserData())
         {
             FB.API("/" + UserId, HttpMethod.GET, GraphResult =>
